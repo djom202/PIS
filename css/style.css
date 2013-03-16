@@ -1,0 +1,112 @@
+body{
+	background: url('../jpg/bG6bbT255854-03.jpg') fixed;
+	padding-top: 0em;
+    font-family: Georgia, "Comic Sans MS",Times, serif;
+    color: white;
+}
+#pie {
+	padding:20px;
+	margin:22px -21px -20px;
+	color:#fff;
+	text-align:center;
+}
+#header {
+	padding:20px;
+	margin:-10px -20px 20px;
+	color:#fff;
+	text-align:center;
+}
+p{
+	color:#00CED1;
+}
+address { /*estilo de los comentarios*/
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted
+    color:black  !important;
+}
+table {
+  border: 0;
+  font-family: Comic Sans MS;
+  font-size:14px;
+}
+td {
+  border-bottom:1 solid #000000;
+  color:#00CED1;
+}
+.fail {
+  color:#FF0000;
+}
+.boton{
+        font-size:10px;
+        font-weight:bold;
+        color:white;
+        background: #66CC33;
+        border:0px;
+        width:80px;
+        height:19px;
+}
+#list-menu {
+	width: 132px;
+	/* this width value is also effected by
+	the padding we will later set on the links. */
+}
+#list-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#list-menu li {
+	margin: 2px 0 0;
+}
+#list-menu a {
+	display: block;
+	width:120px;
+	padding: 2px 2px 2px 10px;
+	border: 1px solid #000000;
+	text-decoration: none; /*lets remove the link underlines*/
+}
+#list-menu a:link, #list-menu a:active, #list-menu a:visited {
+	color: white;
+}
+#list-menu a:hover {
+	border: 1px solid #000000;
+	color: white;
+}
+#footer {
+	padding:10px 0 10px 0px;
+	color:#555;
+	font-size:11px;
+	width:1000px;
+	margin:10px auto;
+	background:#F3F3F3;
+}
+#footer a:link , #footer a:visited{
+	color:#555;
+}
+#footer a:hover {
+	color:#222;
+}
+
+.fleft{
+	float:left;
+	text-align:left;
+	margin:10px 0px 10px 20px;
+	line-height:16px;
+}
+.fright{
+	float:right;
+	text-align:right;
+	margin:10px 20px 10px 0px;
+	line-height:16px;
+}
+.rounded{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#wrapper {
+	width:1000px;
+	margin:0px auto;
+	position:relative;
+}

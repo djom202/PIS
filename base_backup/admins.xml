@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 3.4.2-rc1
+- http://www.phpmyadmin.net
+-
+- Servidor: localhost
+- Tiempo de generación: 07-06-2011 a las 23:12:09
+- Versión del servidor: 5.1.44
+- Versión de PHP: 5.2.13
+-->
+
+<pma_xml_export version="1.0">
+    <!--
+    - Base de datos: 'admins'
+    -->
+    <database name="admins">
+        <!-- Tabla comentarios -->
+        <table name="comentarios">
+            <column name="id">1</column>
+            <column name="id_user">1</column>
+            <column name="comentario">hey, me parece que la paguina esta super buena</column>
+        </table>
+        <table name="comentarios">
+            <column name="id">2</column>
+            <column name="id_user">1</column>
+            <column name="comentario">Hey</column>
+        </table>
+        <!-- Tabla est_ventas -->
+        <table name="est_ventas">
+            <column name="id">1</column>
+            <column name="fecha">2011-06-06 10:14:18</column>
+            <column name="nombre">comedores</column>
+            <column name="cant">101</column>
+        </table>
+        <table name="est_ventas">
+            <column name="id">2</column>
+            <column name="fecha">2011-06-06 10:15:20</column>
+            <column name="nombre">salas</column>
+            <column name="cant">3</column>
+        </table>
+        <table name="est_ventas">
+            <column name="id">3</column>
+            <column name="fecha">2011-06-06 10:15:35</column>
+            <column name="nombre">alcobas</column>
+            <column name="cant">1</column>
+        </table>
+        <table name="est_ventas">
+            <column name="id">4</column>
+            <column name="fecha">2011-06-06 10:15:51</column>
+            <column name="nombre">sillones</column>
+            <column name="cant">21</column>
+        </table>
+        <table name="est_ventas">
+            <column name="id">5</column>
+            <column name="fecha">2011-06-06 10:16:02</column>
+            <column name="nombre">indep</column>
+            <column name="cant">1</column>
+        </table>
+        <!-- Tabla facturas -->
+        <table name="facturas">
+            <column name="id">1</column>
+            <column name="id_venta">1</column>
+            <column name="id_user">1</column>
+            <column name="id_producto">1</column>
+            <column name="valor_producto">200</column>
+            <column name="cantidad_producto">1</column>
+        </table>
+        <table name="facturas">
+            <column name="id">2</column>
+            <column name="id_venta">2</column>
+            <column name="id_user">1</column>
+            <column name="id_producto">1</column>
+            <column name="valor_producto">200</column>
+            <column name="cantidad_producto">1</column>
+        </table>
+        <!-- Tabla inventario -->
+        <table name="inventario">
+            <column name="id">1</column>
+            <column name="id_producto">1</column>
+            <column name="cantidad">7</column>
+        </table>
+        <table name="inventario">
+            <column name="id">2</column>
+            <column name="id_producto">2</column>
+            <column name="cantidad">24</column>
+        </table>
+        <table name="inventario">
+            <column name="id">3</column>
+            <column name="id_producto">3</column>
+            <column name="cantidad">17</column>
+        </table>
+        <table name="inventario">
+            <column name="id">4</column>
+            <column name="id_producto">4</column>
+            <column name="cantidad">3</column>
+        </table>
+        <table name="inventario">
+            <column name="id">5</column>
+            <column name="id_producto">5</column>
+            <column name="cantidad">200</column>
+        </table>
+        <table name="inventario">
+            <column name="id">6</column>
+            <column name="id_producto">6</column>
+            <column name="cantidad">30</column>
+        </table>
+        <table name="inventario">
+            <column name="id">7</column>
+            <column name="id_producto">7</column>
+            <column name="cantidad">7</column>
+        </table>
+        <table name="inventario">
+            <column name="id">8</column>
+            <column name="id_producto">8</column>
+            <column name="cantidad">15</column>
+        </table>
+        <table name="inventario">
+            <column name="id">9</column>
+            <column name="id_producto">9</column>
+            <column name="cantidad">19</column>
+        </table>
+        <table name="inventario">
+            <column name="id">10</column>
+            <column name="id_producto">10</column>
+            <column name="cantidad">2</column>
+        </table>
+        <table name="inventario">
+            <column name="id">11</column>
+            <column name="id_producto">11</column>
+            <column name="cantidad">3</column>
+        </table>
+        <!-- Tabla personas -->
+        <table name="personas">
+            <column name="ced">1140820188</column>
+            <column name="nom">Jonathan</column>
+            <column name="nom2">NULL</column>
+            <column name="ape">Olier</column>
+            <column name="ape2">Miranda</column>
+            <column name="correo">djpcsilvernetjom20@hotmail.com</column>
+        </table>
+        <table name="personas">
+            <column name="ced">God</column>
+            <column name="nom">God</column>
+            <column name="nom2">NULL</column>
+            <column name="ape">Of War</column>
+            <column name="ape2">NULL</column>
+            <column name="correo">god_of_war@hotmail.com</column>
+        </table>
+        <table name="personas">
+            <column name="ced">1140854153</column>
+            <column name="nom">Yaledys</column>
+            <column name="nom2">NULL</column>
+            <column name="ape">Machacon</column>
+            <column name="ape2">Garces</column>
+            <column name="correo">zayaley-venuz@hotmail.com</column>
+        </table>
+        <table name="personas">
+            <column name="ced">1140854160</column>
+            <column name="nom">Lola</column>
+            <column name="nom2">NULL</column>
+            <column name="ape">Machacon</column>
+            <column name="ape2">Garces</column>
+            <column name="correo">lolaz@hotmail.com</column>
+        </table>
+        <!-- Tabla productos -->
+        <table name="productos">
+            <column name="id">1</column>
+            <column name="id_tipo">1</column>
+            <column name="nombre">Comedor de Madera</column>
+            <column name="descripcion">Tiene 4 sillas, acolchado y de colores.</column>
+            <column name="precio">200</column>
+            <column name="imaurl">jpg/muebles/muebles-rusticos2.jpg</column>
+        </table>
+        <table name="productos">
+            <column name="id">2</column>
+            <column name="id_tipo">3</column>
+            <column name="nombre">Alcoba Naranja</column>
+            <column name="descripcion">Doble gabinete, mueble para el computador con silla propia y cama sensilla.</column>
+            <column name="precio">20000</column>
+            <column name="imaurl">jpg/muebles/Muebles-Diseno.jpg</column>
+        </table>
+        <table name="productos">
+            <column name="id">3</column>
+            <column name="id_tipo">3</column>
+            <column name="nombre">Alcoba Verde</column>
+            <column name="descripcion">Camarote doble, meson para PC y closed.</column>
+            <column name="precio">50000</column>
+            <column name="imaurl">jpg/muebles/Sofas-colchones-salones-dormitorios-salvany.jpg</column>
+        </table>
+        <table name="productos">
+            <column name="id">4</column>
+            <column name="id_tipo">2</column>
+            <column name="nombre">Sala Blanca</column>
+            <column name="descripcion">Sala de Color blanca con madera refinada en caoba.</column>
+            <column name="precio">80000</column>
+            <column name="imaurl">jpg/muebles/charles-outdoor-furniture-bb-italia-5.jpg</column>
+        </table>
+        <table name="productos">
+            <column name="id">5</column>
+            <column name="id_tipo">2</column>
+            <column name="nombre">Sala de colores</column>
+            <column name="descripcion">Cuatro sillones que cambian de color en la oscuridad.</column>
+            <column name="precio">50000</column>
+            <column name="imaurl">jpg/muebles/muebles-que-cambian-de-color.jpg</column>
+        </table>
+        <table name="productos">
+            <column name="id">6</column>
+            <column name="id_tipo">4</column>
+            <column name="nombre">Sillon  en Cuero caf</column>
+            <column name="descripcion">Es un sillon tapizado en cuero 100% original.</column>
+            <column name="precio">70</column>
+            <column name="imaurl">jpg/muebles/images.jpeg</column>
+        </table>
+        <table name="productos">
+            <column name="id">7</column>
+            <column name="id_tipo">4</column>
+            <column name="nombre">Sillon de colores</column>
+            <column name="descripcion">Sillon elegante de color azul, rojo, blanco de tamaño familiar.</column>
+            <column name="precio">800</column>
+            <column name="imaurl">jpg/muebles/charles-outdoor-furniture-bb-italia-7.jpg</column>
+        </table>
+        <table name="productos">
+            <column name="id">8</column>
+            <column name="id_tipo">4</column>
+            <column name="nombre">Sillon psicologico</column>
+            <column name="descripcion">Sillon de colores psicologicos para locos.</column>
+            <column name="precio">350</column>
+            <column name="imaurl">jpg/muebles/charles-outdoor-furniture-bb-italia-2.jpg</column>
+        </table>
+        <table name="productos">
+            <column name="id">9</column>
+            <column name="id_tipo">4</column>
+            <column name="nombre">Sillon cama</column>
+            <column name="descripcion">Sillon de tamaño doble para una pareja de recien casados.</column>
+            <column name="precio">820</column>
+            <column name="imaurl">jpg/muebles/muebles-de-jardin.jpg</column>
+        </table>
+        <table name="productos">
+            <column name="id">10</column>
+            <column name="id_tipo">5</column>
+            <column name="nombre">Mueble Ecologico</column>
+            <column name="descripcion">Mueble ecologico, hecho de madera natural.</column>
+            <column name="precio">205</column>
+            <column name="imaurl">jpg/muebles/muebles ecologicos.jpg</column>
+        </table>
+        <table name="productos">
+            <column name="id">11</column>
+            <column name="id_tipo">5</column>
+            <column name="nombre">Mueble Barroco</column>
+            <column name="descripcion">Mueble viejo, muy raro.</column>
+            <column name="precio">750</column>
+            <column name="imaurl">jpg/muebles/mueble-barroco-3.jpg</column>
+        </table>
+        <!-- Tabla secciones -->
+        <table name="secciones">
+            <column name="id">1</column>
+            <column name="nombre">Comedores</column>
+            <column name="desp">En todos nuestros comedores usted tendra la confianza que se lleva un mueble de 100% madera. Todos estan disponibles en los dos colores de vanguardia actuales (chocolate). Debido a la situacion de las casas actuales de medidas realmente pequeñas y a nuestro compromiso por satisfacer al 100% las necesidades de nuestros clientes ofrecemos nuestros comedores por piezas sueltas y en la mayoria de los casos los hay para 4 y 6 personas.</column>
+            <column name="imaurl">jpg/muebles/secciones/conjunto_carrick_y_4_sillas_de_forja.jpg</column>
+            <column name="link">productos.php?seccion=1</column>
+        </table>
+        <table name="secciones">
+            <column name="id">2</column>
+            <column name="nombre">Salas</column>
+            <column name="desp">En todas nuestras salas usted tendra la confianza que se lleva un mueble de 100% madera. Todos estan disponibles en los dos colores de vanguardia actuales (chocolate). Debido a la situacion de las casas actuales de medidas realmente pequeñas y a nuestro compromiso por satisfacer al 100% las necesidades de nuestros clientes ofrecemos nuestros comedores por piezas sueltas y en la mayoria de los casos los hay para 4 y 6 personas.</column>
+            <column name="imaurl">jpg/muebles/secciones/muebles.jpg</column>
+            <column name="link">productos.php?seccion=2</column>
+        </table>
+        <table name="secciones">
+            <column name="id">3</column>
+            <column name="nombre">Alcobas</column>
+            <column name="desp">En todas nuestras alcobas usted tendra la confianza que se lleva un mueble de 100% madera. Todos estan disponibles en los dos colores de vanguardia actuales (chocolate). Debido a la situacion de las casas actuales de medidas realmente pequeñas y a nuestro compromiso por satisfacer al 100% las necesidades de nuestros clientes ofrecemos nuestros comedores por piezas sueltas y en la mayoria de los casos los hay para 4 y 6 personas.</column>
+            <column name="imaurl">jpg/muebles/secciones/mueble1-grande.jpg</column>
+            <column name="link">productos.php?seccion=3</column>
+        </table>
+        <table name="secciones">
+            <column name="id">4</column>
+            <column name="nombre">Sillones</column>
+            <column name="desp">En todos nuestros sillones usted tendra la confianza que se lleva un mueble de 100% madera. Todos estan disponibles en los dos colores de vanguardia actuales (chocolate). Debido a la situacion de las casas actuales de medidas realmente pequeñas y a nuestro compromiso por satisfacer al 100% las necesidades de nuestros clientes ofrecemos nuestros comedores por piezas sueltas y en la mayoria de los casos los hay para 4 y 6 personas.</column>
+            <column name="imaurl">jpg/muebles/secciones/charles-outdoor-furniture-bb-italia-1.jpg</column>
+            <column name="link">productos.php?seccion=4</column>
+        </table>
+        <table name="secciones">
+            <column name="id">5</column>
+            <column name="nombre">Independiente</column>
+            <column name="desp">En todos nuestros muebles independientes usted tendra la confianza que se lleva un mueble de 100% madera. Todos estan disponibles en los dos colores de vanguardia actuales (chocolate). Debido a la situacion de las casas actuales de medidas realmente pequeñas y a nuestro compromiso por satisfacer al 100% las necesidades de nuestros clientes ofrecemos nuestros comedores por piezas sueltas y en la mayoria de los casos los hay para 4 y 6 personas.</column>
+            <column name="imaurl">jpg/muebles/secciones/muebles-carton.jpg</column>
+            <column name="link">productos.php?seccion=5</column>
+        </table>
+        <!-- Tabla usuarios -->
+        <table name="usuarios">
+            <column name="id">1</column>
+            <column name="user">1140820188</column>
+            <column name="pass">efbe7a36e3b2076518cd380615be2a66</column>
+            <column name="pass_b">teamomiyale</column>
+            <column name="imaurl">jpg/perfiles/avatar97153_2.gif</column>
+            <column name="photo">.../jpg/perfiles/dp1005.jpg.</column>
+            <column name="priv">0</column>
+            <column name="est">1</column>
+        </table>
+        <table name="usuarios">
+            <column name="id">2</column>
+            <column name="user">God</column>
+            <column name="pass">6db23eee40d34e8290441bd8ff5bd924</column>
+            <column name="pass_b">usbw</column>
+            <column name="imaurl">jpg/perfiles/ani_27.gif</column>
+            <column name="photo"></column>
+            <column name="priv">1</column>
+            <column name="est">1</column>
+        </table>
+        <table name="usuarios">
+            <column name="id">3</column>
+            <column name="user">1140854153</column>
+            <column name="pass">a2db97b850241abf965d54521327d7a3</column>
+            <column name="pass_b">yale1205</column>
+            <column name="imaurl">dp64.gif</column>
+            <column name="photo"></column>
+            <column name="priv">0</column>
+            <column name="est">1</column>
+        </table>
+        <table name="usuarios">
+            <column name="id">4</column>
+            <column name="user">1140854160</column>
+            <column name="pass">1daeed76359bebf35719ca872161ec68</column>
+            <column name="pass_b">lola16</column>
+            <column name="imaurl"></column>
+            <column name="photo"></column>
+            <column name="priv">0</column>
+            <column name="est">1</column>
+        </table>
+        <!-- Tabla ventas -->
+        <table name="ventas">
+            <column name="id">1</column>
+            <column name="id_user">1</column>
+            <column name="fecha">2011-06-05 17:02:00</column>
+            <column name="total">500000</column>
+        </table>
+    </database>
+</pma_xml_export>

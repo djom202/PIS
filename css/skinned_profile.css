@@ -1,0 +1,461 @@
+/* Top section parent divs need layout in IE */
+div#user-details { zoom:1; }
+div.window_content { zoom:1; }
+
+/* Top Left */
+	div#Profile-TopLeft {width:176px;}
+	div#Profile-TopLeft-PhotoContainer {position:relative;height:442px;}
+	div#Profile-TopLeft-PhotoContainerBackground {background-color:white;width:176px;height:442px;position:absolute;top:0;left:0;z-index:9;filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity: 0.8;opacity: 0.8;}
+	div#Profile-TopLeft-Photo { z-index: 10;overflow:visible; text-align: center; width: 160px;position:relative; padding-bottom:0; }
+	div#Profile-TopLeft-Photo img { border: 1px solid #aaaaaa; }
+	div#Profile-TopLeft-UploadPhotos a { z-index: 10; color:#434343 !important; }
+	div#Profile-TopLeft-UploadPhotos a:hover { z-index: 10; color:#fff !important; }
+	div#Profile-TopLeft-UserNav, div#Profile-TopLeft-ActionLinks { line-height: 1.7em !important;margin: 0 15px;padding-left:0;padding-bottom:0;}
+	div#Profile-TopLeft-UserNav div, div#Profile-TopLeft-ActionLinks div { z-index: 10; }
+	div#Profile-TopLeft-UserNav a { z-index: 10; color:#3996cc !important;line-height: 24px; font-size: 16px; font-weight: normal; padding: 2px 0;}
+	div#Profile-TopLeft-UserNav a:hover { color:#ff9900 !important; }
+	div#Profile-TopLeft-UserNav .userNav-Meta { color: #de8500 }
+
+	div#Profile-TopLeft-ActionLinks a { color:#3996cc !important;line-height: 18px; font-size: 12px; font-weight: normal;display: block; padding: 2px 0; }
+	div#Profile-TopLeft-ActionLinks a:hover { color:#ff9900 !important; }
+	div#Profile-TopLeft-OnlineNow { color:#434343; padding:5px 0 0 5px; }
+
+	/*rounded corners*/
+	div#Profile-TopLeft-PhotoContainerBackground, #coinsBalance, #vanity-barsBg, #headerNameBg, #myMood, #otherUserInfoBg{
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		-khtml-border-radius:5px;
+	}
+
+#Profile-TopLeft a.supporter {
+	background: url(../png/sprite-01.png) 0 -8px no-repeat;
+	border: 0;
+	height: 21px;
+	left: 111px;
+	position: absolute;
+	text-indent: -9999em;
+	top: -2px;
+	width: 21px;
+}
+
+#Profile-TopLeft a.former {
+	background-position: 0 -400px;
+}
+
+/* End Top Left */
+
+
+/* Top Center */
+div#Profile-ActionBar {width:447px;position: relative; top: 107px;}
+div#Profile-ActionBar a {color:#fff !important;float:left;width:146px;height:54px;margin:0 2px;}
+div#Profile-ActionBar a:hover {color:#333 !important;}
+div#Profile-ActionBar a.first {margin-left: 0;}
+div#Profile-ActionBar a.last {margin-right: 0;}
+div#Profile-ActionBar a span {position:relative;top:12px;left:5px;font-size:13px;width:70px;}
+
+a#Profile-ActionBar-Upload {background:url(../png/photos.png) no-repeat;}
+a#Profile-ActionBar-Upload:hover {background:url(../png/photos_over.png) no-repeat;}
+a#Profile-ActionBar-Invite {background:url(../png/invite.png) no-repeat;}
+a#Profile-ActionBar-Invite:hover {background:url(../png/invite_over.png) no-repeat;}
+a#Profile-ActionBar-Play {background:url(../png/games.png) no-repeat;}
+a#Profile-ActionBar-Play:hover {background:url(../png/games_over.png) no-repeat;}
+/* End Top Center */
+
+#coinsBalance, #myMood {background-color:white;}
+#vanity-bars {margin-bottom:32px;padding-right:12px;padding-top:14px;}
+#xabout-right {position:absolute;top:-3px;right:0;z-index:10;height:414px;}
+#vanity-barsBg {background-color:white;width:300px;height:160px;position:absolute;top:8px;right:8px;z-index:9;filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity: 0.8;opacity: 0.8;}
+#vanity-barsContainer {position:relative;}
+.vanity-title a, #picture-links a {color:#3996cc !important; }
+.vanity-title a:hover, #picture-links a:hover {color:#ff9900 !important;}
+#vanity-bars a { line-height: 16px; font-size: 11px; }
+#otherUserInfo{position:relative; height:160px; margin-bottom:8px;overflow:hidden;width:447px}
+#otherUserInfoBg{background-color:white; height:144px;width:431px;position:absolute;padding:8px;z-index:9; filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity: 0.8;opacity: 0.8;margin-bottom:8px;}
+
+.section div, .subsection div { line-height: 1.4em;}
+.subsection, .subsection div { overflow: hidden; }
+#interests .subsection, #lifestyle .subsection { _width: 450px; position: relative; }
+#interests .subsection div, #lifestyle .subsection div { position: relative; }
+
+.clear { clear: left; line-height: 0px; font-size: 0px; }
+.content { color: inherit; }
+form { margin: 0; }
+
+.about-column {
+  float: left;
+  xmargin: 7px;
+  padding: 7px;
+}
+.content-column {
+  width: 470px;
+}
+
+.section-separator {
+  clear: both;
+  height: 15px;
+  font-size: 0px;
+  line-height: 0;
+}
+.subsection-separator {
+  clear: both;
+  height: 0;
+  font-size: 0px;
+  line-height: 0;
+}
+#user-info .subsection-separator {
+    height: 10px;
+}
+
+.listitem-separator {
+  clear: left;
+  height: 15px;
+  font-size: 0px;
+  line-height: 0;
+}
+.panel {
+  padding: 5px;
+  border: 1px solid #cccccc;
+  background: #f3f3f3;
+  color: black;
+  z-index: 1000;
+}
+.panel .padding {
+  background: url(../gif/blue.gif) repeat-x;
+  <%-- // background-color: white; --%>
+  margin: 0; padding: 10px;
+}
+.panel .subsection-separator {
+  height: 10px;
+  line-height: 0px;
+}
+.panel-spacer {
+  float: right;
+}
+
+.section h1 {
+  font-size: 14px;
+  /* margin: 0; padding: 2px 7px; */
+  margin: 0; height: 30px; line-height: 30px; padding: 0 7px;
+  border-bottom: 1px solid #cccccc;
+}
+.section h2 {
+  font-size: 11px; font-weight: normal;
+  margin: 0; padding: 2px 7px;
+  height: 25px; padding: 0 7px; line-height: 25px;
+  background: #f3f3f3;
+}
+.section h3 {
+  font-size: 12px;
+  margin: 0; margin-bottom: 3px; padding: 7px 7px;
+  border-bottom: 1px dotted #cccccc;
+}
+.section h2 a {
+  font-weight: normal;
+  font-size: 11px;
+}
+.section .content {
+  margin: 0; padding: 0px;
+  width: auto;
+}
+.section .footer {
+  display: none;
+  font-height: 0px;
+  line-height: 0px;
+}
+.subsection {
+  padding: 7px;
+}
+
+.noIndent {
+	padding: 0px;
+}
+
+.info-box {
+  float: left;
+  width: 195px;
+  margin-right: 5px;
+}
+.section h4 {
+  font-size: 12px;
+  margin: 0; padding: 0 0;
+}
+
+#content-left {
+	float: left;
+}
+#content-right {
+	float: right;
+}
+
+#about-left { float: left; width: 176px; overflow: hidden;}
+#about-center {	float: left; width: 420px; overflow: hidden;}
+#about-right { float: left; width: 314px; overflow: hidden;}
+
+a.view-all {
+  font-weight: normal;
+}
+
+
+#user-info {
+  margin-bottom: 0;
+}
+#about-me h2 {
+  display: none;
+}
+
+/* ================ about-right ================ */
+
+.vanity-title {
+}
+.vanity-bar {
+  float: right;
+  margin-top: 2px;
+}
+#journal-entries {
+  margin-bottom: 0;
+}
+
+/* ================ content-left ================= */
+
+.recent-update {
+}
+.update-picture {
+  float: left;
+  border: 1px solid #aaaaaa;
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  position: relative;
+  margin: 0px 10px;
+}
+.update-text {
+  float: left;
+  width: 350px;
+}
+
+/* ================ content-right ================ */
+#friends .subsection {
+  _margin-left: -3px;
+}
+.friend {
+  float: left;
+  width: 90px;
+  text-align: center;
+  position: relative;
+}
+.friend-name {
+  width: 90px;
+  overflow: hidden;
+}
+.friend-picture {
+  width: 70px; height: 70px;
+  margin-left: 10px;
+  border: 1px solid #aaaaaa;
+  overflow: hidden;
+  position: relative;
+}
+
+.comment {
+}
+.comment-picture {
+  float: left; width: 100px;
+  margin-right: 10px;
+  border: 1px solid #cccccc;
+}
+.comment-text {
+  float: left; width: 340px;
+}
+
+.section .emptyProfileInfo {
+	background: url(../gif/yellow.gif) top left repeat-x;
+	border: 1px solid #ccc;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	font-size: 16px;
+	color: black;
+}
+.section .emptyProfileInfo2 {
+	background: #FFF;
+	border: 1px solid #ccc;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	font-size: 16px;
+	color: black;
+}
+.section .emptyProfileInfo a, .section .emptyProfileInfo a:hover, .section .emptyProfileInfo a:visited {
+	font-size: 16px;
+	color: #085098 !important;
+}
+
+.deleteUpdate {
+	float: right;
+	border: 1px solid #69f;
+	font-size: 9px;
+}
+
+.deleteUpdate a {
+	color: #69f;
+}
+
+.albumWrapper {
+	float: left;
+	text-align: center;
+	width: 140px;
+	overflow:hidden;
+}
+
+.album  {
+        background: url('../jpg/album_bkgd_flat.jpg') top left no-repeat;
+        height: 108px;
+        width: 108px;
+		overflow: hidden;
+
+    }
+
+.album img {
+  margin-top:4px;
+}
+
+
+.video {
+  float: left;
+  width: 112px;
+  text-align: center;
+  position: relative;
+}
+
+.videoPlayer {
+	width: 400px;
+	position: relative;
+	left: 30px;
+}
+
+.videoActions {
+	width: 400px;
+	height: 50px;
+}
+
+.videoAction a {
+	font-weight: normal;
+	font-size: 11px;
+}
+
+.videoActionLeft {
+	width: 140px;
+	height: 40px;
+	position: absolute;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.videoActionCenter {
+	width: 90px;
+	height: 40px;
+	position: absolute;
+	left: 150px;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.videoActionRight {
+	width: 140px;
+	height: 40px;
+	position: absolute;
+	left: 250px;
+	padding: 5px;
+	overflow: hidden;
+}
+
+
+.request-section {
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+
+.friend-request {
+    border: 1px solid #cccccc;
+    padding: 10px; _padding-bottom: 5px;
+    margin: 0 150px;
+    margin-bottom: 10px;
+    width: auto;
+    background: url(../gif/yellow.gif);
+    color:black;
+}
+
+.friend-request a {
+  color:#085098 !important;
+}
+
+.commentEditor {
+	text-align: center;
+	text-decoration:none;
+	font-weight:normal;
+	line-height: 1.5em;
+}
+.commentEditor input {
+	margin: 5px;
+}
+
+.journalImage {
+	float: left;
+	margin-right: 7px;
+	margin-top: 18px;
+}
+
+#widgets .emptyProfileInfo img {margin-top: 5px;}
+.profileWidget .widgetLinks a {font-size: 12px; font-weight: normal; margin-top: 5px;}
+
+#view-all-apps .subsection		{ text-align: center; }
+#view-all-apps .subsection a	{ font: bold 16px/1.5em Arial, Helvetica, sans-serif; }
+
+/* INFO SECTION - HACK FOR IE6 TRANSPARENCY */
+    #info-topleft {
+      float:left; width:4px; height: 43px;background: url(../png/LtopCorner.png) no-repeat;
+    }
+    #info-topmid {
+      float:left;width:413px; height: 43px; background: url('../png/topMiddle.png') repeat-x;
+    }
+    #info-topright {
+      float:left; width:4px; height: 43px;background: url(../png/RtopCorner.png) no-repeat
+    }
+    #info-botmid {
+      float:left;width:413px; height: 3px; background: url(../png/botMiddle.png) repeat-x;
+    }
+    #info-botleft {
+      float:left; width:4px; height: 3px;background: url(../png/LbotCorner.png) no-repeat
+    }
+    #info-botright {
+      float:left; width:4px; height: 3px;background: url(png/RbotCorner.png) no-repeat
+    }
+    *html #info-topmid {
+      background: transparent;
+      filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../png/topMiddle.png');
+    }
+    *html #info-topleft {
+      background: transparent;
+      filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../png/LtopCorner.png');
+    }
+    *html #info-topright {
+      background: transparent;
+      filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../png/RtopCorner.png');
+    }
+    *html #info-botmid {
+      background: transparent;
+      width:411px;
+      border-bottom: 1px solid #303030;
+    }
+    *html #info-botleft {
+      background: transparent;
+      border-left: 1px solid #303030;
+      border-bottom: 1px solid #303030;
+    }
+    *html #info-botright {
+      background: transparent;
+      border-right: 1px solid #303030;
+      border-bottom: 1px solid #303030;
+    }
+    #info,#contact,#game{
+      width:419px; min-height: 210px;height: auto !important; height: 210px;border-left: 1px solid #303030; border-right: 1px solid #303030;
+    }

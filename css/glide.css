@@ -1,0 +1,334 @@
+#slidearea{
+	height: 320px; 
+	overflow: hidden;
+	position: relative; 
+	width:1000px;
+	background:#e2e2e2 url(images/slide.png) bottom no-repeat;
+}
+#gallerycover{
+	overflow: hidden;
+	margin:0px 0px 0px 0px;
+	height: 280px; 
+	
+}
+
+.mygallery{
+	overflow: hidden;
+	position:relative;
+
+}
+
+.mytext img{
+
+	float:left;
+
+
+}
+
+.mytext{
+	position:relative;
+	margin:0px 0px 0px 0px;
+	width:250px;
+	height: 300px;
+	display:inline;
+	float:left;
+	color:#c4c4c4;
+	background:#e2e2e2;
+
+
+}
+
+.inpost{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:250px;
+	background:url(images/trans.png);
+
+
+}
+
+.mytext h2 {
+	padding:5px 10px;
+	color:#fff;
+	font-size: 14px ;
+	width:230px;
+	font-weight:normal;
+}
+
+.mytext h2 a:link,.mytext h2 a:visited{
+	color:#fff;
+}
+
+.mytext p{
+	padding:5px 10px;
+	color:#555;
+	font-size: 12px ;
+	line-height:20px;
+	width:230px;
+	text-shadow:1px 1px 0px #f6f6f6;
+}
+
+
+.prevb{
+float:left;
+	width:66px;
+	height:19px;
+	z-index:200;
+	background:url(images/prev.png);
+	position:absolute;
+	left:430px;
+	bottom:15px;
+	}
+	
+.nextb{
+    float:right;
+	width:63px;
+	height:19px;
+	z-index:200;
+	background:url(images/next.png);
+	position:absolute;
+	right:430px;
+	bottom:15px;
+	display:block;
+	}
+
+
+
+.twitter{
+	margin:5px 5px 15px 5px;
+	
+	}
+p.twitter-message{
+	color:#37282D;
+	border-bottom:1px dotted #bbb;
+	padding:10px 0px;
+			width:280px;
+	}
+a.twitter-link{
+	color:#fff;
+	}
+a.twitter-user{
+	color:#045668;
+	}
+
+
+
+.widgets {
+	width:1000px;
+	padding:0px 0px 0px 0px;
+	background:#15181b;
+	height:280px;
+
+}
+
+.widgets a {
+	color: #222;
+	text-decoration: none;
+	}
+	
+.widgets a:hover {
+
+	}
+img.sidim{
+width:250px;
+height:150px;
+
+
+}
+
+img.phumb{
+	width:80px;
+	height:58px;
+	float:left;
+	margin-right:10px;
+
+
+
+}
+
+
+
+ul#tabnav{
+	list-style:none;
+	height:280px;
+	width:350px;
+	float:right;
+	margin:0px ;
+	overflow:hidden;
+	display:inline;
+	padding:0px 0px;
+	background:#181818;
+}	
+	
+#tabnav li {
+	list-style: none;
+
+	}
+
+#tabnav li a:link,#tabnav li a:visited {
+
+	display: inline;
+	float:left;
+	padding:5px;
+	margin-left:1px;
+	border-bottom:1px solid #2d2d2d;
+	border-top:1px solid #000;
+	color:#555;
+}	
+	
+#tabnav li a:hover, #tabnav li a:active, #tabnav li.ui-tabs-selected a {
+	background: #080808 url(images/tabh.png) repeat-x;
+	color:#eee;
+	}
+	
+#tabnav li.ui-tabs-selected h3 {
+	color:#e0af17;
+}
+
+a.listab{
+	display:block;
+	width:350px;
+	height:58px;
+
+}
+
+.listab h3{
+	font-size:14px;
+	font-weight:bold;
+	padding:0px 5px;
+	color:#eee;
+
+}
+.listab p{
+	font-size:12px;
+	line-height:16px;
+
+}
+.tabdiv {
+
+	margin:0px;
+	/* width:650px; */
+    width:308px;
+	float:left;
+	height:280px;
+	position:relative;
+	display:inline;
+	background:#fff;
+
+	}
+
+.featpost{
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	background:url(images/trans.png);
+	padding:10px;
+	border-top:1px solid #000;
+	color:#999;
+	width:555px;
+}	
+	
+.ui-tabs-hide {
+	display: none;
+		}
+
+		
+#bottom{
+
+	margin:0px auto;
+
+}
+.bottomcover{
+	background:#DFDFDF ;
+	margin:0px auto;
+	width:960px;
+	border:1px solid #ccc;
+}	
+h3.bothead{
+
+	height:20px;
+	font-size:15px;
+	padding:10px 0px 10px 10px;
+	color:#111;
+	border-bottom:1px solid #CFCFCF;
+	
+}
+.botwid{
+	float:left;
+	width:218px;
+	padding-bottom:10px;
+	font-size:12px;
+	font-family:Arial,Tahoma,Century gothic,sans-serif;
+	margin:10px 0px 0px 15px;
+	color:#666;
+
+	}
+.botwid ul {
+	list-style-type: none;
+	margin:  0px;
+	padding: 0px 5px 5px 5px ;
+
+	}
+.botwid li{
+	list-style-type: none;
+	margin: 0 ;
+	padding: 0;
+
+	}
+.botwid ul ul  {
+	list-style-type: none;
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	background-repeat:no-repeat;
+		}
+
+.botwid ul ul ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border:0;
+	}
+
+.botwid ul ul ul ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border:0;
+
+	}
+
+.botwid ul li {
+	height:100%;
+	line-height:18px;
+	clear: left;	
+	width: 220px;
+	list-style-type: none;
+	}
+	
+.botwid ul li a:link, .botwid ul li a:visited  {
+	
+	color: #555;
+	text-shadow:1px 1px 0px #F3F3F3;
+	text-decoration: none;
+	padding: 5px 0px 5px 5px;
+	display:block;
+	border-bottom:1px solid #CFCFCF;
+
+	}
+
+.botwid ul li a:hover{
+	color: #000;
+	text-shadow:1px 1px 0px #F3F3F3;
+	}
+
+.botwid p{
+	padding: 7px 10px;
+	margin:0;
+	}
+
+.botwid table {
+	width:100%;
+	text-align:center;
+	color:#787d7f;
+	}			
